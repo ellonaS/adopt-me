@@ -1,10 +1,15 @@
 <template>
   <div class="home">
-   <adopt-card> </adopt-card>
+   <adopt-card id="adopt"> </adopt-card>
+   <div class="margin">
    <b-card-group>
-   <volunteers-card> </volunteers-card>
-   <testimonial-card> </testimonial-card>
+     <b-row>
+   <b-col md="4"><volunteers-card> </volunteers-card></b-col>
+   <b-col md="8"><testimonial-card> </testimonial-card></b-col>
+     </b-row>
    </b-card-group>
+   <programs-card/>
+   </div>
   </div>
 </template>
 
@@ -13,13 +18,15 @@
 import AdoptCard from "@/components/AdoptCard";
 import VolunteersCard from "@/components/VolunteersCard";
 import TestimonialCard from "@/components/TestimonialCard";
+import ProgramsCard from "@/components/ProgramsCard";
 
 export default {
   name: 'Home',
   components: {
     AdoptCard,
     VolunteersCard,
-    TestimonialCard
+    TestimonialCard,
+    ProgramsCard
   }
 }
 </script>
@@ -31,4 +38,9 @@ div.card-deck {
   padding-top: 20px;
 
 }
+.margin{
+  margin-left: 5%;
+  margin-right: 5%;
+} 
+
 </style>

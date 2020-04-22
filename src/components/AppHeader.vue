@@ -1,6 +1,6 @@
 <template>
   <div>
-    <b-navbar toggleable="lg" type="dark" variant="info">
+    <b-navbar toggleable="md" type="dark" variant="info">
       <b-navbar-brand :to="{name: 'Home'}">
         <img :src="require('../assets/img/logo.png')" alt="Logo" />Adoptme.Org
       </b-navbar-brand>
@@ -23,3 +23,7 @@ export default {
   name: "app-header"
 };
 </script>
+
+<style scoped>
+
+</style>

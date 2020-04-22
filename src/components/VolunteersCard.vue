@@ -29,4 +29,9 @@ div.card-body {
 p.card-text{
     padding: 20px
 }
+.card{
+      height: 100%;
+      box-shadow: 2px 2px 10px gray;
+}
+
 </style>
