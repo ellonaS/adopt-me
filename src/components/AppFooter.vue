@@ -1,6 +1,6 @@
 <template>
 <footer class="fluid-container">
-  <b-navbar toggleable="lg" type="dark" variant="info">
+  <b-navbar toggleable="lg" type="dark" variant="primary">
     <b-navbar-brand href="#">Adoptme.Org</b-navbar-brand>
 
     <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
@@ -23,7 +23,5 @@ export default {
 </script>
 
 <style scoped>
-fluid-container {
-    margin-bottom: 0px
-}
+
 </style>
