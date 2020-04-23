@@ -29,4 +29,7 @@ export default {
   padding-left: 5%;
   padding-right: 5%;
 }
+img {
+  width:20%;
+}
 </style>

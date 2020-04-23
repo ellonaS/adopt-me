@@ -1,8 +1,8 @@
 # adopt-me
-
+Please, check a short video presentation for this project https://youtu.be/7kM4yACl74g (no sound)
 This is a frontend technical challenge for Base22. The challenge was to build a home page for a non-profit organization called Adoptme.Org. The project is still work in progress.
 
-The project was built on Vue.js using BootstrapVue framework.
+The page was built on Vue.js using BootstrapVue framework.
 
 ## Prerequisites
 1. node.js. (https://nodejs.org/en/)
@@ -11,6 +11,10 @@ The project was built on Vue.js using BootstrapVue framework.
 npm install -g vue-cli
 ```
 This command will install vue-cli globally.
+3. Bootstrap-Vue can be installed with npm through the following command: 
+```
+npm i bootstrap-vue
+```
 
 ## Project setup
 

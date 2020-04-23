@@ -66,15 +66,4 @@ div.card-header {
 #tabs-card {
     padding-top: 1%
 }
-/* .nav-pills .nav-link.active {
-    color: #322982;
-    border-bottom: solid #322982;
-    background-color: white !important;
-} */
-/* .mytab{
-    color: #FF0000 !important;
-} */
-ul.nav > li.nav-item > a.nav-link {
-    background-color: white !important;
-}
 </style>
