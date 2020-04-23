@@ -7,7 +7,7 @@
       text-variant="white"
     >
       <div id="darken">
-        <div class="margin">
+        <div class="text">
           <b-card-title>This is your new family!</b-card-title>
           <b-button variant="outline-light">ADOPT NOW</b-button>
         </div>
@@ -33,9 +33,6 @@ export default {
   position: absolute;
   bottom: 0;
   width: 100%;
+  padding: 2% 2% 2% 5%
 }
-/* .margin {
-  margin-left: 5%;
-  margin-right: 5%
-} */
 </style>

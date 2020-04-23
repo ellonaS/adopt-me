@@ -26,12 +26,12 @@ export default {
 div.card-body {
     padding: 0px
 }
-p.card-text{
-    padding: 20px
-}
 .card{
       height: 100%;
       box-shadow: 2px 2px 10px gray;
+}
+#body{
+  padding:5%
 }
 
 </style>

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <b-navbar toggleable="md" type="dark" variant="info">
+    <b-navbar toggleable="md" type="dark" variant="info" id="navbar">
       <b-navbar-brand :to="{name: 'Home'}">
         <img :src="require('../assets/img/logo.png')" alt="Logo" />Adoptme.Org
       </b-navbar-brand>
@@ -25,5 +25,8 @@ export default {
 </script>
 
 <style scoped>
-
+#navbar {
+  padding-left: 5%;
+  padding-right: 5%;
+}
 </style>

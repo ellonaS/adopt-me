@@ -1,7 +1,7 @@
 <template>
   <div class="home">
    <adopt-card id="adopt"> </adopt-card>
-   <div class="margin">
+   <div class="margin" id="home-content">
    <b-card-group>
      <b-row>
    <b-col md="4"><volunteers-card> </volunteers-card></b-col>
@@ -14,7 +14,6 @@
 </template>
 
 <script>
-// @ is an alias to /src
 import AdoptCard from "@/components/AdoptCard";
 import VolunteersCard from "@/components/VolunteersCard";
 import TestimonialCard from "@/components/TestimonialCard";
@@ -31,7 +30,9 @@ export default {
 }
 </script>
 
-<style scoped>
+<style lang="scss">
+
+
 div.card-deck {
   padding-left: 40px;
   padding-right: 40px;
@@ -42,5 +43,4 @@ div.card-deck {
   margin-left: 5%;
   margin-right: 5%;
 } 
-
 </style>
