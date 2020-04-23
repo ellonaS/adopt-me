@@ -1,37 +1,33 @@
 <template>
-    
   <b-card
     header="VOLUNTEERS"
     header-text-variant="white"
     header-tag="header"
     header-bg-variant="primary"
   >
-  <b-card-img id="girl" :src="require('../assets/img/girl.png')" alt="Image"></b-card-img>
-  <b-card-body id="body">
-    <b-card-text>Amazing people, doing the difference every single day. Join us now and be part of the community that is changing the world</b-card-text>
-    <b-button variant="outline-primary">JOIN US</b-button>
-  </b-card-body>
+    <b-card-img id="girl" :src="require('../assets/img/girl.png')" alt="Image"></b-card-img>
+    <b-card-body id="body">
+      <b-card-text>Amazing people, doing the difference every single day. Join us now and be part of the community that is changing the world</b-card-text>
+      <b-button variant="outline-primary">JOIN US</b-button>
+    </b-card-body>
   </b-card>
-
-
 </template>
 
 <script>
 export default {
-    name: "volunteers-card"
-}
+  name: "volunteers-card"
+};
 </script>
 
 <style scoped>
 div.card-body {
-    padding: 0px
+  padding: 0px;
 }
-.card{
-      height: 100%;
-      box-shadow: 2px 2px 10px gray;
+.card {
+  height: 100%;
+  box-shadow: 2px 2px 10px gray;
 }
-#body{
-  padding:5%
+#body {
+  padding: 5%;
 }
-
 </style>

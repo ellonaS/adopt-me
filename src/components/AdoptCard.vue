@@ -33,6 +33,6 @@ export default {
   position: absolute;
   bottom: 0;
   width: 100%;
-  padding: 2% 2% 2% 5%
+  padding: 2% 2% 2% 5%;
 }
 </style>
